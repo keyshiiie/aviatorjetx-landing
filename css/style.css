@@ -524,11 +524,13 @@ body {
   }
 
   .footer__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .footer__logo-row {
